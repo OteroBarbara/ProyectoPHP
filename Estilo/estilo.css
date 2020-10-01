@@ -1,0 +1,28 @@
+body{
+    background-size: cover;
+    background-image: url("../images/fondo10.jpg") ;
+
+}
+.conteiner_form{
+    margin: 5vw;
+    width: 60vw;
+    background-color: rgba(0, 0, 0, 0.911);
+    color: #f28d35;
+    border: 1vw outset #f28d35;
+
+}
+.conteiner_form img{
+    width: 30vw;
+}
+h1{
+    color: #f27830;
+    font-size: 16px;
+}
+form{
+    display: block;
+}
+footer{
+    margin-top: 10%;
+    text-align: right;
+    color: white;
+}
