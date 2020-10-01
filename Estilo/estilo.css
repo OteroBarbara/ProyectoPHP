@@ -1,11 +1,38 @@
 body{
     background-size: cover;
     background-image: url("../images/fondo3.jpg") ;
+    margin: 0px;
+    padding: 0px;
 
 }
-h1{
-    color: yellow;
-    font-size: 20vw;
+.InfoPersonal{
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.959);
+    color: #f28d35;
+    text-align: left;
+}
+.InfoPersonal p{
+    padding-top: 70px;
+    padding-left: 220px;
+    font-size: 34px;
+}
+.logo img{
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    height: 12vw;
+
+}
+.avatar {
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 180px;
+    width: 180px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    float: left;
 }
 .conteiner_form{
     margin: 5vw;
@@ -33,8 +60,17 @@ footer{
     color: white;
     font-size: 14px;
 }
+.logout img{
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.938);
+    color: #f28d35;
+    border: 0.5vw outset #272626;
+    border-radius: 50%;
+}
 footer p{
     padding-right: 10px;
     background-color: rgba(0, 0, 0, 0.719);
 }
-
