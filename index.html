@@ -1,34 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ingresar al sitio</title>
+
+    <title>Ingresar al sitio - Seminario RestoBar</title>
+    <meta name="description" content="Aplicación Web para la atención en Seminario RestoBar.">
+    <meta name="author" content="Bárbara Otero & Lautaro Enrietti Leal.">
+
     <link rel="stylesheet" href="./Estilo/estilo.css">
+    <link rel="icon" href="./images/LogoMetaCB.png">
 </head>
+
 <body>
     <header></header>
     <nav></nav>
-    <div align= center>
-    <div class="conteiner_form">
-        <br>
-        <figure><img src="./images/logoSeminario.png" alt="Logo de Seminario RestoBar. Slogan: Persigue los sabores"></figure>
-        <h1>Si eres parte del staff, ingresa tus datos para acceder al sitio:</h1>
-        <form>
-            <label for="user">Usuario:</label>
-            <input id="user"  placeholder="Usuario">
-            <label for="pword">Contraseña:</label>
-            <input id="pword"  type="password" placeholder="Contraseña">
-            <input type="submit" value="Iniciar sesión">
+    <section>
+    <div align=center>
+        <div class="conteiner_form">
+            <br>
+            <figure>
+                <div tabindex="2">
+                    <img src="./images/logoSeminario.png"
+                        alt="Logo de Seminario RestoBar. Slogan: Persigue los sabores">
+                </div>
+            </figure>
+            <!--<h1>Si eres parte del staff, ingresa tus datos para acceder al sitio:</h1>-->
+            <form class="FormularioInicio"  action="./inicioMozo.html">
 
-        </form>
-        <br>
+                <label for="user"><img src="./images/simbol_user.png" alt="Ingrese su usuario"></label>
+                <input tabindex="4" id="user" type="text" placeholder="Usuario"><br>
+
+                <label for="pword"><img src="./images/orangekey.png" alt="Ingrese su contraseña"></label>
+                <input tabindex="6" id="pword" type="password" placeholder="Contraseña"><br><br>
+
+                <input tabindex="8" type="submit" value="Iniciar sesión">
+
+            </form>
+            <br>
+        </div>
     </div>
-    </div>
+    </section>
     <footer>
-        <div class="desarrolladores">
-            <p>Desarrollado por Otero Bárbara y Enrietti Leal Lautaro.</p>
+        <div class="desarrolladores" tabindex="20">
+            <p>&copy; Seminario RestoBar 2020
+                - Desarrollado por <u>Otero Bárbara & Enrietti Leal Lautaro.</u></p>
         </div>
     </footer>
 </body>
+
 </html>

@@ -1,12 +1,16 @@
 body{
     background-size: cover;
-    background-image: url("../images/fondo10.jpg") ;
+    background-image: url("../images/fondo3.jpg") ;
 
+}
+h1{
+    color: yellow;
+    font-size: 20vw;
 }
 .conteiner_form{
     margin: 5vw;
     width: 60vw;
-    background-color: rgba(0, 0, 0, 0.911);
+    background-color: rgba(0, 0, 0, 0.959);
     color: #f28d35;
     border: 1vw outset #f28d35;
 
@@ -14,15 +18,23 @@ body{
 .conteiner_form img{
     width: 30vw;
 }
-h1{
+.conteiner_form h1{
     color: #f27830;
     font-size: 16px;
 }
-form{
-    display: block;
+.conteiner_form form label img{
+    width: 20px;
 }
 footer{
-    margin-top: 10%;
+    position: fixed;
+    bottom:0px;
+    right: 0px;
     text-align: right;
     color: white;
+    font-size: 14px;
 }
+footer p{
+    padding-right: 10px;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
