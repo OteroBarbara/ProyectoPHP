@@ -5,6 +5,8 @@
 body{
     background-size: cover;
     background-image: url("../images/fondo4.jpg") ;
+    font-family: 'Raleway', sans-serif; 
+    /* Decidir entre Lato y Raleway o proponer otra fuente */
 }
 .InfoPersonal{
     margin-top: 16px;
@@ -13,10 +15,17 @@ body{
     color: #f28d35;
     text-align: left;
 }
-.InfoPersonal p{
+.datos_personales{
     padding-top: 70px;
     padding-left: 205px;
+}
+.nombre_empleado{
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+}
+.rol{
     font-size: 32px;
+    margin-left: 10px;
 }
 .logo{
     float: right;
@@ -52,6 +61,7 @@ body{
     background-color: rgba(0, 0, 0, 0.925);
     color: #f28d35;
     text-align: center;
+    font-size: 18px;
 }
 .Formulario{
     display: block;   
@@ -59,7 +69,7 @@ body{
 }
 .tituloFormulario{
     color: #f27830;
-    font-size: 16px;
+    font-size: 22px;
 }
 .logout img{
     display: block;

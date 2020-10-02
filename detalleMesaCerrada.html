@@ -1,71 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-    <body>
-        <header>
-            <div>
-                <figure>
-                    <img class="logo" src="./images/logoSeminario.png" alt="Logo de Seminario RestoBar. Slogan: Persigue los sabores">
-                </figure>
-            </div>
-            <div class="InfoPersonal">
-                <div class="avatar" style="background-image: url(./images/cajero1.jpg);"></div>
-                <strong>
-                    <p>Paula Borges
-                </strong>
-                <br>Cajera</p>           
-            </div>
-        </header>
-    
-        <section>
-            <div align=center>
-                <div class="ContenedorForm">
-                    <h1 class="tituloFormulario" tabindex="1">Complete los siguientes campos para realizar un pedido:</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <title>Detalle - Mesa cerrada - Seminario RestoBar</title>
+    <meta name="description" content="Aquí los cajeros de Seminario RestoBar pueden ver el detalle de una mesa cerrada.">
+    <meta name="author" content="Bárbara Otero & Lautaro Enrietti Leal.">
+
+    <link rel="stylesheet" href="./Estilo/estilo.css">
+    <link rel="icon" href="./images/LogoMetaCB.png">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <figure>
+                <img class="logo" src="./images/logoSeminario.png" alt="Logo de Seminario RestoBar. Slogan: Persigue los sabores">
+            </figure>
+        </div>
+        <div class="InfoPersonal">
+            <div class="avatar" style="background-image: url(./images/cajero1.jpg);"></div>
+            <div class="datos_personales">
+                <h1 class="nombre_empleado"><strong>Luís Hernández</strong></h1>
+                <p class="rol">Mozo</p>
+            </div>          
+        </div>
+    </header>
+
+    <section>
+        <div align=center>
+            <div class="ContenedorForm">
+                <h1 class="tituloFormulario" tabindex="1">Complete los siguientes campos para realizar un pedido:</h1>
+                <br>
+                <form class="Formulario" action="./inicioMozo.html">
+                    <label for="food">Comida/Bebida:</label>
+                    <select id="food" tabindex="2">
+                        <option value="#">Seleccione una opción</option>
+                        <optgroup label="Comidas:">
+                            <option value="Hamburgesa">Hamburguesa</option>
+                            <option value="Papas">Papas</option>
+                            <option value="Picada">Picada Seminario</option>
+                            <option value="Pizza">Pizza</option>
+                            <option value="Tostado">Tostado</option>
+                        </optgroup>
+                        <optgroup label="Bebidas:">
+                            <option value="Agua">Agua</option>
+                            <option value="Cerveza">Cerveza</option>
+                            <option value="Fernet">Fernet</option>
+                            <option value="Gaseosa">Gaseosa</option>
+                            <option value="Tequila">Shot de Tequila</option>
+                            <option value="Trago">Trago elaborado</option>
+                            <option value="Vino">Vino</option>
+                        </optgroup>
+                    </select>
+                    <br><br>
+                    <label for="mensaje">Comentarios:</label>
+                    <textarea name="mensaje" rows="4" cols="20" placeholder="Ingrese los comentarios aquí."></textarea>
+                    <br><br>
+                    <label for="mesa">Mesa:</label>
+                    <input tabindex="6" id="n_mesa" type="number" placeholder="Nº de mesa"><br><br>
                     <br>
-                    <form class="Formulario" action="./inicioMozo.html">
-                        <label for="food">Comida/Bebida:</label>
-                        <select id="food" tabindex="2">
-                            <option value="#">Seleccione una opción</option>
-                            <optgroup label="Comidas:">
-                                <option value="Hamburgesa">Hamburguesa</option>
-                                <option value="Papas">Papas</option>
-                                <option value="Picada">Picada Seminario</option>
-                                <option value="Pizza">Pizza</option>
-                                <option value="Tostado">Tostado</option>
-                            </optgroup>
-                            <optgroup label="Bebidas:">
-                                <option value="Agua">Agua</option>
-                                <option value="Cerveza">Cerveza</option>
-                                <option value="Fernet">Fernet</option>
-                                <option value="Gaseosa">Gaseosa</option>
-                                <option value="Tequila">Shot de Tequila</option>
-                                <option value="Trago">Trago elaborado</option>
-                                <option value="Vino">Vino</option>
-                            </optgroup>
-                        </select>
-                        <br><br>
-                        <label for="mensaje">Comentarios:</label>
-                        <textarea name="mensaje" rows="4" cols="20" placeholder="Ingrese los comentarios aquí."></textarea>
-                        <br><br>
-                        <label for="mesa">Mesa:</label>
-                        <input tabindex="6" id="n_mesa" type="number" placeholder="Nº de mesa"><br><br>
-                        <br>
-                        <input tabindex="7" type="reset" value="Borrar todo">
-                        <input tabindex="8" type="submit" value="Hacer pedido">
-                    </form>
-                </div>
+                    <input tabindex="7" type="reset" value="Borrar todo">
+                    <input tabindex="8" type="submit" value="Hacer pedido">
+                </form>
             </div>
-        </section>
-        <section>
-            <div class="logout" align="center">
-                <a href="index.html"><img src="./images/logout4.png" alt="Cerrar sesión"></a>
-            </div>
-        </section>
-        <footer>
-            <div class="desarrolladores" tabindex="20">
-                <p>&copy; Seminario RestoBar 2020
-                    - Desarrollado por <u>Otero Bárbara & Enrietti Leal Lautaro.</u></p>
-            </div>
-        </footer>
-    </body>
-    
-    </html>
+        </div>
+    </section>
+    <section>
+        <div class="logout" align="center">
+            <a href="index.html"><img src="./images/logout4.png" alt="Cerrar sesión"></a>
+        </div>
+    </section>
+    <footer>
+        <div class="desarrolladores" tabindex="20">
+            <p>&copy; Seminario RestoBar 2020
+                - Desarrollado por <u>Otero Bárbara & Enrietti Leal Lautaro.</u></p>
+        </div>
+    </footer>
+</body>
+
+</html>
