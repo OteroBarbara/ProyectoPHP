@@ -13,18 +13,61 @@
 </head>
 <body>
     <header>
+        <div>
+            <figure>
+                <img class="logo" src="./images/logoSeminario.png" alt="Logo de Seminario RestoBar. Slogan: Persigue los sabores">
+            </figure>
+        </div>
         <div class="InfoPersonal">
-        <div class="avatar" style="background-image: url(./images/bartender.jpg);"></div>
-        
-        <strong><p>Paula Santos</strong>
-        <br>Bartender</p>
-        <div class="logo">
-            <img src="./images/logoSeminario.png" alt="Logo de Seminario RestoBar. Slogan: Persigue los sabores">
+            <div class="avatar" style="background-image: url(./images/bartender.jpg);"></div>
+            <strong>
+                <p>María Herrera
+            </strong>
+            <br>Bartender</p>           
         </div>
     </header>
-    <nav></nav>
+
     <section>
-        <div class="logout">
+        <div align=center>
+            <div class="ContenedorForm">
+                <h1 class="tituloFormulario" tabindex="1">Complete los siguientes campos para realizar un pedido:</h1>
+                <br>
+                <form class="Formulario" action="./inicioMozo.html">
+                    <label for="food">Comida/Bebida:</label>
+                    <select id="food" tabindex="2">
+                        <option value="#">Seleccione una opción</option>
+                        <optgroup label="Comidas:">
+                            <option value="Hamburgesa">Hamburguesa</option>
+                            <option value="Papas">Papas</option>
+                            <option value="Picada">Picada Seminario</option>
+                            <option value="Pizza">Pizza</option>
+                            <option value="Tostado">Tostado</option>
+                        </optgroup>
+                        <optgroup label="Bebidas:">
+                            <option value="Agua">Agua</option>
+                            <option value="Cerveza">Cerveza</option>
+                            <option value="Fernet">Fernet</option>
+                            <option value="Gaseosa">Gaseosa</option>
+                            <option value="Tequila">Shot de Tequila</option>
+                            <option value="Trago">Trago elaborado</option>
+                            <option value="Vino">Vino</option>
+                        </optgroup>
+                    </select>
+                    <br><br>
+                    <label for="mensaje">Comentarios:</label>
+                    <textarea name="mensaje" rows="4" cols="20" placeholder="Ingrese los comentarios aquí."></textarea>
+                    <br><br>
+                    <label for="mesa">Mesa:</label>
+                    <input tabindex="6" id="n_mesa" type="number" placeholder="Nº de mesa"><br><br>
+                    <br>
+                    <input tabindex="7" type="reset" value="Borrar todo">
+                    <input tabindex="8" type="submit" value="Hacer pedido">
+                </form>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="logout" align="center">
             <a href="index.html"><img src="./images/logout4.png" alt="Cerrar sesión"></a>
         </div>
     </section>
@@ -35,4 +78,5 @@
         </div>
     </footer>
 </body>
+
 </html>

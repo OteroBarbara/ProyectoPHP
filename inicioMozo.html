@@ -16,23 +16,24 @@
 
 <body>
     <header>
+        <div>
+            <figure>
+                <img class="logo" src="./images/logoSeminario.png" alt="Logo de Seminario RestoBar. Slogan: Persigue los sabores">
+            </figure>
+        </div>
         <div class="InfoPersonal">
             <div class="avatar" style="background-image: url(./images/mozo.jpg);"></div>
-
             <strong>
                 <p>Luís Hernández
             </strong>
-            <br>Mozo</p>
-        </div>>
-            <div class="logo">
-                <img src="./images/logoSeminario.png" alt="Logo de Seminario RestoBar. Slogan: Persigue los sabores">
-            </div>
+            <br>Mozo</p>           
+        </div>
     </header>
-    <nav></nav>
+
     <section>
         <div align=center>
             <div class="ContenedorForm">
-                <h1 tabindex="1">Complete los siguientes campos para realizar un pedido:</h1>
+                <h1 class="tituloFormulario" tabindex="1">Complete los siguientes campos para realizar un pedido:</h1>
                 <br>
                 <form class="Formulario" action="./inicioMozo.html">
                     <label for="food">Comida/Bebida:</label>
@@ -57,7 +58,7 @@
                     </select>
                     <br><br>
                     <label for="mensaje">Comentarios:</label>
-                    <textarea name="mensaje" rows="3" cols="20" placeholder="Ingrese los comentarios aquí."></textarea>
+                    <textarea name="mensaje" rows="4" cols="20" placeholder="Ingrese los comentarios aquí."></textarea>
                     <br><br>
                     <label for="mesa">Mesa:</label>
                     <input tabindex="6" id="n_mesa" type="number" placeholder="Nº de mesa"><br><br>
@@ -66,11 +67,10 @@
                     <input tabindex="8" type="submit" value="Hacer pedido">
                 </form>
             </div>
-            <br>
         </div>
     </section>
     <section>
-        <div class="logout">
+        <div class="logout" align="center">
             <a href="index.html"><img src="./images/logout4.png" alt="Cerrar sesión"></a>
         </div>
     </section>

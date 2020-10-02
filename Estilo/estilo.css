@@ -1,11 +1,13 @@
-body{
-    background-size: cover;
-    background-image: url("../images/fondo3.jpg") ;
+*{
     margin: 0px;
     padding: 0px;
-
+}
+body{
+    background-size: cover;
+    background-image: url("../images/fondo4.jpg") ;
 }
 .InfoPersonal{
+    margin-top: 16px;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.959);
     color: #f28d35;
@@ -16,34 +18,35 @@ body{
     padding-left: 205px;
     font-size: 32px;
 }
-.logo img{
-    margin-top: 0px;
-    margin-right: 0px;
+.logo{
     float: right;
-    height: 12vw;
-
+    margin-top: 5px;
+    width: 14vw;
 }
 .avatar {
     margin-top: 10px;
     margin-left: 13px;
     height: 175px;
     width: 175px;
-    background-repeat: no-repeat;
-    background-position: 50%;
     border-radius: 50%;
     background-size: 100% auto;
     float: left;
 }
-.conteiner_form{
-    margin: 5vw;
+.Contenedor_form_index{
+    margin: 4vw;
     width: 60vw;
     background-color: rgba(0, 0, 0, 0.959);
     color: #f28d35;
     border: 1vw outset #f28d35;
-
+}
+.logoIndex{ 
+    width:  36vw;
+}
+.icon{
+    width: 20px;
 }
 .ContenedorForm{
-    padding: 3vw;
+    padding: 2vw;
     margin: 6vw;
     width: 65vw;
     background-color: rgba(0, 0, 0, 0.925);
@@ -53,36 +56,27 @@ body{
 .Formulario{
     display: block;   
     text-align: right;
-
 }
-.conteiner_form img{
-    width: 30vw;
-}
-.conteiner_form h1{
+.tituloFormulario{
     color: #f27830;
     font-size: 16px;
 }
-.conteiner_form form label img{
-    width: 20px;
-}
-footer{
-    display: block;
-    bottom:0px;
-    right: 0px;
-    text-align: right;
-    color: white;
-    font-size: 14px;
-}
 .logout img{
     display: block;
-    margin-left: 20px;
     width: 50px;
+    margin-bottom: 10px;
     background-color: rgba(0, 0, 0, 0.938);
     color: #f28d35;
     border: 0.5vw outset #272626;
     border-radius: 50%;
 }
-footer p{
-    padding-right: 10px;
-    background-color: rgba(0, 0, 0, 0.719);
+footer{
+    display: block;
+    position: fixed;
+    right: 0px;
+    bottom:0px;
+    text-align: right;
+    color: white;
+    font-size: 1.6vh;
+    background-color: rgba(0, 0, 0, 0.74);
 }
