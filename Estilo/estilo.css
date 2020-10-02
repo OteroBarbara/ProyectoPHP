@@ -16,15 +16,15 @@ body{
     text-align: left;
 }
 .datos_personales{
-    padding-top: 70px;
+    padding-top: 60px;
     padding-left: 205px;
 }
 .nombre_empleado{
     font-family: 'Great Vibes', cursive;
-    font-size: 50px;
+    font-size: 42px;
 }
 .rol{
-    font-size: 32px;
+    font-size: 24px;
     margin-left: 10px;
 }
 .logo{
