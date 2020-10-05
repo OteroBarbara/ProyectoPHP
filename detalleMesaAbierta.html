@@ -30,50 +30,46 @@
     </header>
 
     <section>
-        <div align=center>
-            <div class="ContenedorForm">
-                <h1 class="tituloFormulario" tabindex="1">Complete los siguientes campos para realizar un pedido:</h1>
+        <div align="center">
+            <div class="detalleMesa">
+                <h1>Mesa N</h1>
                 <br>
-                <form class="Formulario" action="./inicioMozo.html">
-                    <label for="food">Comida/Bebida:</label>
-                    <select id="food" tabindex="2">
-                        <option value="#">Seleccione una opción</option>
-                        <optgroup label="Comidas:">
-                            <option value="Hamburgesa">Hamburguesa</option>
-                            <option value="Papas">Papas</option>
-                            <option value="Picada">Picada Seminario</option>
-                            <option value="Pizza">Pizza</option>
-                            <option value="Tostado">Tostado</option>
-                        </optgroup>
-                        <optgroup label="Bebidas:">
-                            <option value="Agua">Agua</option>
-                            <option value="Cerveza">Cerveza</option>
-                            <option value="Fernet">Fernet</option>
-                            <option value="Gaseosa">Gaseosa</option>
-                            <option value="Tequila">Shot de Tequila</option>
-                            <option value="Trago">Trago elaborado</option>
-                            <option value="Vino">Vino</option>
-                        </optgroup>
-                    </select>
-                    <br><br>
-                    <label for="mensaje">Comentarios:</label>
-                    <textarea name="mensaje" rows="4" cols="20" placeholder="Ingrese los comentarios aquí."></textarea>
-                    <br><br>
-                    <label for="mesa">Mesa:</label>
-                    <input tabindex="6" id="n_mesa" type="number" placeholder="Nº de mesa"><br><br>
+                <div class="partemesaDet">
+                    <h2>Fue atendida por:</h2>
+                    <ul><em>
+                        <li>Luís Hernández</li>
+                        <li>Otro Mozo</li>
+                        <li>Otro Mozo</li>
+                    </em></ul>
+                </div>
+                <div class="partemesaDet">
+                    <div align="right">
+                    <h2>Pedidos</h2>                  
+                    <ul><em>
+                        <li>Hamburguesa <img class="iconFood" src="./images/Hamburguesa.png" alt="Hamburguesa"></li>
+                        <li>Pizza <img class="iconFood" src="./images/Pizza.png" alt="Pizza"></li>
+                        <li>Trago <img class="iconFood" src="./images/trago.png" alt="Trago"></li>
+                        <li>Cerveza <img class="iconFood" src="./images/cerveza.png" alt="Cerveza"></li>
+                        <li>Gaseosa <img class="iconFood" src="./images/cocacola.png" alt="Gaseosa"></li>
+                    </em></ul>
+                    </div>
                     <br>
-                    <input tabindex="7" type="reset" value="Borrar todo">
-                    <input tabindex="8" type="submit" value="Hacer pedido">
-                </form>
+                </div>
+                <h2>Total a pagar: $ Monto</h2>               
+                <div class="cerrarMesa">
+                    <a href="inicioCajero.html"><img src="./images/botar.png" alt="Cerrar la mesa y volver al listado anterior."></a>
+                </div>  
             </div>
         </div>
     </section>
-    <section>
+
+    <footer>
+        <div class="historial">
+            <a href="inicioCajero.html"><img src="./images/volver.png" alt="Volver al listado de mesas."></a>
+        </div>
         <div class="logout" align="center">
             <a href="index.html"><img src="./images/logout4.png" alt="Cerrar sesión"></a>
         </div>
-    </section>
-    <footer>
         <div class="desarrolladores" tabindex="20">
             <p>&copy; Seminario RestoBar 2020
                 - Desarrollado por <u>Otero Bárbara & Enrietti Leal Lautaro.</u></p>

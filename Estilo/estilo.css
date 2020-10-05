@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    list-style: none;
 }
 body{
     background-size: cover;
@@ -11,6 +12,7 @@ body{
 .InfoPersonal{
     margin-top: 16px;
     height: 200px;
+    width: 100vw;
     background-color: rgba(0, 0, 0, 0.959);
     color: #f28d35;
     text-align: left;
@@ -54,6 +56,66 @@ body{
 .icon{
     width: 20px;
 }
+.iconFood{
+    height: 40px;
+    width: 40px;
+}
+.pedido{
+    background-color: rgba(0, 0, 0, 0.925);
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+}
+.mesa{
+    background-color: rgba(0, 0, 0, 0.925);
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+}
+.mesaClosed{
+    background-color: rgba(0, 0, 0, 0.925);  
+    margin: 20px;
+    padding: 20px;
+    float: left;
+}
+.partemesa{
+    float: left;
+    width: 150px;
+    margin: 30px;
+}
+.partemesaDet{
+    float: left;
+    width: 160px;
+    padding: 20px;
+}
+.lista{
+    color: #f27830;
+    margin-top: 20px;
+    margin-left: 5vw;
+    margin-right: 50px;
+}
+.lista h1{
+    font-size: 30px;
+    color: #f28d35;
+    text-shadow: 2px 2px 2px black;
+}
+.entregado{
+    height: 50px;
+    float: right;
+    border: 3px outset #35df0b;
+    background-color: #30c20b;
+    border-radius: 50%;
+}
+.detalle{
+    height: 50px;
+    float: right;
+    border: 3px outset #d1f6ff;
+    background-color: #a0e9ff;
+    border-radius: 50%;
+}
 .ContenedorForm{
     padding: 2vw;
     margin: 6vw;
@@ -63,6 +125,14 @@ body{
     text-align: center;
     font-size: 18px;
 }
+.detalleMesa{
+    padding: 2vw;
+    margin: 4vh;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.925);
+    color: #f28d35;
+    text-align: center;
+}
 .Formulario{
     display: block;   
     text-align: right;
@@ -71,17 +141,46 @@ body{
     color: #f27830;
     font-size: 22px;
 }
-.logout img{
-    display: block;
-    width: 50px;
-    margin-bottom: 10px;
-    background-color: rgba(0, 0, 0, 0.938);
-    color: #f28d35;
-    border: 0.5vw outset #272626;
+.cerrarMesa img{
+    height: 50px;
+    border: 5px outset #ff3838;
+    background-color: #e61515;
     border-radius: 50%;
+    margin-top: 20px;
 }
-footer{
+.cambiarPag{
+    position: fixed;
+    right: 25px;
+    top: 50vh;
+}
+
+.cambiarPag img{
+    height: 40px;
+    border: 5px outset #35df0b;
+    background-color: #30c20b;
+    border-radius: 50%;
     display: block;
+    margin-top: 20px;
+}
+.historial img{
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.938);
+    border: 5px outset #333333;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom:100px;  
+}
+.logout img{
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.938);
+    border: 5px outset #333333;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom:30px;
+}
+.desarrolladores{
     position: fixed;
     right: 0px;
     bottom:0px;

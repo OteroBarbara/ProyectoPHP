@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+
     <title>Mesas cerradas - Historial - Seminario RestoBar</title>
     <meta name="description" content="Aquí los cajeros de Seminario RestoBar pueden ver las mesas cerradas.">
     <meta name="author" content="Bárbara Otero & Lautaro Enrietti Leal.">
@@ -13,11 +14,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div>
             <figure>
-                <img class="logo" src="./images/logoSeminario.png" alt="Logo de Seminario RestoBar. Slogan: Persigue los sabores">
+                <img class="logo" src="./images/logoSeminario.png"
+                    alt="Logo de Seminario RestoBar. Slogan: Persigue los sabores">
             </figure>
         </div>
         <div class="InfoPersonal">
@@ -25,55 +28,220 @@
             <div class="datos_personales">
                 <h1 class="nombre_empleado"><strong>Julia Martínez</strong></h1>
                 <p class="rol">Cajera</p>
-            </div>          
+            </div>
         </div>
     </header>
 
+
     <section>
-        <div align=center>
-            <div class="ContenedorForm">
-                <h1 class="tituloFormulario" tabindex="1">Complete los siguientes campos para realizar un pedido:</h1>
+        <div class="lista">
+            <h1><strong>Mesas:</strong></h1>
+            <div class="mesaClosed" align="center">
+                <h2>Mesa 1</h2>
                 <br>
-                <form class="Formulario" action="./inicioMozo.html">
-                    <label for="food">Comida/Bebida:</label>
-                    <select id="food" tabindex="2">
-                        <option value="#">Seleccione una opción</option>
-                        <optgroup label="Comidas:">
-                            <option value="Hamburgesa">Hamburguesa</option>
-                            <option value="Papas">Papas</option>
-                            <option value="Picada">Picada Seminario</option>
-                            <option value="Pizza">Pizza</option>
-                            <option value="Tostado">Tostado</option>
-                        </optgroup>
-                        <optgroup label="Bebidas:">
-                            <option value="Agua">Agua</option>
-                            <option value="Cerveza">Cerveza</option>
-                            <option value="Fernet">Fernet</option>
-                            <option value="Gaseosa">Gaseosa</option>
-                            <option value="Tequila">Shot de Tequila</option>
-                            <option value="Trago">Trago elaborado</option>
-                            <option value="Vino">Vino</option>
-                        </optgroup>
-                    </select>
-                    <br><br>
-                    <label for="mensaje">Comentarios:</label>
-                    <textarea name="mensaje" rows="4" cols="20" placeholder="Ingrese los comentarios aquí."></textarea>
-                    <br><br>
-                    <label for="mesa">Mesa:</label>
-                    <input tabindex="6" id="n_mesa" type="number" placeholder="Nº de mesa"><br><br>
-                    <br>
-                    <input tabindex="7" type="reset" value="Borrar todo">
-                    <input tabindex="8" type="submit" value="Hacer pedido">
-                </form>
+                <div class="partemesa">
+                    <p>dd/mm/aa<br>
+                        hh:mm<br>
+                        Total: <br>$ Monto<br></p>
+                </div>
+                <div class="partemesa">
+                    <p>Pedidos:</p>
+                    <ul><em>
+                        <li>Producto 1</li>
+                        <li>Producto 2</li>
+                        <li>Producto 3</li>
+                        <li>Producto 4</li>
+                        <li>Producto 5</li>
+                    </em></ul>
+                </div>
+            </div>
+            <div class="mesaClosed" align="center">
+                <h2>Mesa 2</h2>
+                <br>
+                <div class="partemesa">
+                    <p>dd/mm/aa<br>
+                        hh:mm<br>
+                        Total: <br>$ Monto<br></p>
+                </div>
+                <div class="partemesa">
+                    <p>Pedidos:</p>
+                    <ul><em>
+                        <li>Producto 1</li>
+                        <li>Producto 2</li>
+                        <li>Producto 3</li>
+                        <li>Producto 4</li>
+                        <li>Producto 5</li>
+                    </em></ul>
+                </div>
+            </div>
+            <div class="mesaClosed" align="center">
+                <h2>Mesa 3</h2>
+                <br>
+                <div class="partemesa">
+                    <p>dd/mm/aa<br>
+                        hh:mm<br>
+                        Total: <br>$ Monto<br></p>
+                </div>
+                <div class="partemesa">
+                    <p>Pedidos:</p>
+                    <ul><em>
+                        <li>Producto 1</li>
+                        <li>Producto 2</li>
+                        <li>Producto 3</li>
+                        <li>Producto 4</li>
+                        <li>Producto 5</li>
+                    </em></ul>
+                </div>
+            </div>
+            <div class="mesaClosed" align="center">
+                <h2>Mesa 4</h2>
+                <br>
+                <div class="partemesa">
+                    <p>dd/mm/aa<br>
+                        hh:mm<br>
+                        Total: <br>$ Monto<br></p>
+                </div>
+                <div class="partemesa">
+                    <p>Pedidos:</p>
+                    <ul><em>
+                        <li>Producto 1</li>
+                        <li>Producto 2</li>
+                        <li>Producto 3</li>
+                        <li>Producto 4</li>
+                        <li>Producto 5</li>
+                    </em></ul>
+                </div>
+            </div>
+            <div class="mesaClosed" align="center">
+                <h2>Mesa 5</h2>
+                <br>
+                <div class="partemesa">
+                    <p>dd/mm/aa<br>
+                        hh:mm<br>
+                        Total: <br>$ Monto<br></p>
+                </div>
+                <div class="partemesa">
+                    <p>Pedidos:</p>
+                    <ul><em>
+                        <li>Producto 1</li>
+                        <li>Producto 2</li>
+                        <li>Producto 3</li>
+                        <li>Producto 4</li>
+                        <li>Producto 5</li>
+                    </em></ul>
+                </div>
+            </div>
+            <div class="mesaClosed" align="center">
+                <h2>Mesa 6</h2>
+                <br>
+                <div class="partemesa">
+                    <p>dd/mm/aa<br>
+                        hh:mm<br>
+                        Total: <br>$ Monto<br></p>
+                </div>
+                <div class="partemesa">
+                    <p>Pedidos:</p>
+                    <ul><em>
+                        <li>Producto 1</li>
+                        <li>Producto 2</li>
+                        <li>Producto 3</li>
+                        <li>Producto 4</li>
+                        <li>Producto 5</li>
+                    </em></ul>
+                </div>
+            </div>
+            <div class="mesaClosed" align="center">
+                <h2>Mesa 7</h2>
+                <br>
+                <div class="partemesa">
+                    <p>dd/mm/aa<br>
+                        hh:mm<br>
+                        Total: <br>$ Monto<br></p>
+                </div>
+                <div class="partemesa">
+                    <p>Pedidos:</p>
+                    <ul><em>
+                        <li>Producto 1</li>
+                        <li>Producto 2</li>
+                        <li>Producto 3</li>
+                        <li>Producto 4</li>
+                        <li>Producto 5</li>
+                    </em></ul>
+                </div>
+            </div>
+            <div class="mesaClosed" align="center">
+                <h2>Mesa 8</h2>
+                <br>
+                <div class="partemesa">
+                    <p>dd/mm/aa<br>
+                        hh:mm<br>
+                        Total: <br>$ Monto<br></p>
+                </div>
+                <div class="partemesa">
+                    <p>Pedidos:</p>
+                    <ul><em>
+                        <li>Producto 1</li>
+                        <li>Producto 2</li>
+                        <li>Producto 3</li>
+                        <li>Producto 4</li>
+                        <li>Producto 5</li>
+                    </em></ul>
+                </div>
+            </div>
+            <div class="mesaClosed" align="center">
+                <h2>Mesa 9</h2>
+                <br>
+                <div class="partemesa">
+                    <p>dd/mm/aa<br>
+                        hh:mm<br>
+                        Total: <br>$ Monto<br></p>
+                </div>
+                <div class="partemesa">
+                    <p>Pedidos:</p>
+                    <ul><em>
+                        <li>Producto 1</li>
+                        <li>Producto 2</li>
+                        <li>Producto 3</li>
+                        <li>Producto 4</li>
+                        <li>Producto 5</li>
+                    </em></ul>
+                </div>
+            </div>
+            <div class="mesaClosed" align="center">
+                <h2>Mesa 10</h2>
+                <br>
+                <div class="partemesa">
+                    <p>dd/mm/aa<br>
+                        hh:mm<br>
+                        Total: <br>$ Monto<br></p>
+                </div>
+                <div class="partemesa">
+                    <p>Pedidos:</p>
+                    <ul><em>
+                        <li>Producto 1</li>
+                        <li>Producto 2</li>
+                        <li>Producto 3</li>
+                        <li>Producto 4</li>
+                        <li>Producto 5</li>
+                    </em></ul>
+                </div>
             </div>
         </div>
     </section>
     <section>
-        <div class="logout" align="center">
-            <a href="index.html"><img src="./images/logout4.png" alt="Cerrar sesión"></a>
+        <div class="cambiarPag">
+            <a href="historialMesasCerradas.html"><img src="./images/atras.png" alt="Volver a la página anterior."></a>
+            <a href="historialMesasCerradas.html"><img src="./images/adelante.png"
+                    alt="Avanzar a la siguiente página."></a>
         </div>
     </section>
     <footer>
+        <div class="historial">
+            <a href="inicioCajero.html"><img src="./images/volver.png" alt="Volver al listado de mesas."></a>
+        </div>
+        <div class="logout">
+            <a href="index.html"><img src="./images/logout4.png" alt="Cerrar sesión"></a>
+        </div>
         <div class="desarrolladores" tabindex="20">
             <p>&copy; Seminario RestoBar 2020
                 - Desarrollado por <u>Otero Bárbara & Enrietti Leal Lautaro.</u></p>
