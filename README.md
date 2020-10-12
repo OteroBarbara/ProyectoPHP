@@ -2,11 +2,14 @@
 # ProyectoPHP
 
 Se desea implementar una aplicación web para gestionar los pedidos de los comensales por mesa de un restaurante.
-Al acceder a index.php (debe estar en la raíz del sitio) se mostrará un inicio de sesión para usuarios registrados (pidiendo el nombre de usuario y la clave). Se debe validar del lado del cliente que ambos campos tengan por lo menos 6 caracteres y que el nombre de usuario tenga
-solo caracteres alfanuméricos. Luego del envío de los datos, se debe validar contra los datos previamente almacenados en la base de datos, que exista un usuario con dicho nombre de usuario y si existiese se debe validar que la clave coincida con la ingresada. En caso de éxito el
+Al acceder a index.php (debe estar en la raíz del sitio) se mostrará un inicio de sesión para usuarios registrados (pidiendo el nombre de usuario y la clave). 
+
+Se debe validar del lado del cliente que ambos campos tengan por lo menos 6 caracteres y que el nombre de usuario tenga
+solo caracteres alfanuméricos. 
+
+Luego del envío de los datos, se debe validar contra los datos previamente almacenados en la base de datos, que exista un usuario con dicho nombre de usuario y si existiese se debe validar que la clave coincida con la ingresada. En caso de éxito el
 sistema redirigirá a la página de inicio, indicando que el usuario está logueado. En caso de login inválido se debe informar con un mensaje de error tal situación.
-Tenga en cuenta que los usuarios que usarán el sistema pueden ser mozos, cocineros,
-bar-tenders o cajeros.
+Tenga en cuenta que los usuarios que usarán el sistema pueden ser mozos, cocineros, bar-tenders o cajeros.
 
 La página de inicio para el mozo contendrá un formulario para realizar un pedido (por simplicidad la comida y/o bebida se ingresan de a una por vez):
 a) la comida o bebida
