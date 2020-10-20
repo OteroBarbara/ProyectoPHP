@@ -9,6 +9,10 @@ body{
     font-family: 'Raleway', sans-serif; 
     /* Decidir entre Lato y Raleway o proponer otra fuente */
 }
+input:focus {
+    border-color: blue;
+    border-width: 3px;
+  }
 .InfoPersonal{
     margin-top: 16px;
     height: 200px;
