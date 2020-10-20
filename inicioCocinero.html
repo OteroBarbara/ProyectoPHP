@@ -12,6 +12,8 @@
     <link rel="icon" href="./images/LogoMetaCB.png">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="./js/cerrarsesion.js"></script>
+    <script type="text/javascript" src="./js/despacharpedido.js"></script>
 </head>
 <body>
     <header>
@@ -33,31 +35,31 @@
         <div class="lista">
         <h1><strong>Pedidos:</strong></h1>
              <div class="pedido">            
-                <a href="inicioCocinero.html"><img class="entregado" src="./images/done.png" alt="Pedido entregado. Quitará el pedido actual de la lista."></a>
+                <a href="inicioCocinero.html" onclick="return despachar()"><img class="entregado" src="./images/done.png" alt="Pedido entregado. Quitará el pedido actual de la lista."></a>
                 <h2>Mesa: 1</h2> 
                 <h3>Pedido: Pizza</h3>
                 <p>Comentario: 1/2 Napolitana y 1/2 Roquefort</p>
              </div>
              <div class="pedido">            
-                <a href="inicioCocinero.html"><img class="entregado" src="./images/done.png" alt="Pedido entregado. Quitará el pedido actual de la lista."></a>
+                <a href="inicioCocinero.html" onclick="return despachar()"><img class="entregado" src="./images/done.png" alt="Pedido entregado. Quitará el pedido actual de la lista."></a>
                 <h2>Mesa: 2</h2> 
                 <h3>Pedido: Picada Seminario</h3>
                 <p>Comentario: s/c</p>
               </div>
               <div class="pedido">            
-                <a href="inicioCocinero.html"><img class="entregado" src="./images/done.png" alt="Pedido entregado. Quitará el pedido actual de la lista."></a>
+                <a href="inicioCocinero.html" onclick="return despachar()"><img class="entregado" src="./images/done.png" alt="Pedido entregado. Quitará el pedido actual de la lista."></a>
                 <h2>Mesa: 3</h2> 
                 <h3>Pedido: Hamburguesa</h3>
                 <p>Comentario: Sin aderezos</p>
               </div>
               <div class="pedido">            
-                <a href="inicioCocinero.html"><img class="entregado" src="./images/done.png" alt="Pedido entregado. Quitará el pedido actual de la lista."></a>
+                <a href="inicioCocinero.html" onclick="return despachar()"><img class="entregado" src="./images/done.png" alt="Pedido entregado. Quitará el pedido actual de la lista."></a>
                 <h2>Mesa: 4</h2> 
                 <h3>Pedido: Tostado</h3>
                 <p>Comentario: s/c</p>
               </div>
               <div class="pedido">            
-                <a href="inicioCocinero.html"><img class="entregado" src="./images/done.png" alt="Pedido entregado. Quitará el pedido actual de la lista."></a>
+                <a href="inicioCocinero.html" onclick="return despachar()"><img class="entregado" src="./images/done.png" alt="Pedido entregado. Quitará el pedido actual de la lista."></a>
                 <h2>Mesa: 5</h2> 
                 <h3>Pedido: Papas</h3>
                 <p>Comentario: Con cheddar</p>
@@ -66,7 +68,7 @@
     </section>
     <footer>
         <div class="logout">
-            <a href="index.html"><img src="./images/logout4.png" alt="Cerrar sesión"></a>
+            <a href="index.html" onclick="return cerrarsesion()"><img src="./images/logout4.png" alt="Cerrar sesión"></a>
         </div>
         <div class="desarrolladores" tabindex="20">
             <p>&copy; Seminario RestoBar 2020
