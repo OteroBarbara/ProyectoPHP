@@ -1,4 +1,4 @@
-function validarindex () {
+function validarInicio () {
     var usuario = document.getElementById("user").value;
     var pass = document.getElementById("pword").value;
 
@@ -12,5 +12,14 @@ function validarindex () {
     }
     else {
         return true;
+    }
+}
+function cerrarSesion () {
+    var opcion = confirm("¿Desea cerrar sesión?");
+    if (opcion) {
+        return true;
+    }
+    else {
+        return false;
     }
 }
