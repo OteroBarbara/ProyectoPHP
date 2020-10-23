@@ -32,8 +32,8 @@
             <div class="avatar" style="background-image: url(./images/avatar/mozo.jpg);"></div>
             
             <div class="datos_personales">
-                <h1 class="nombre_empleado"><strong>Luís Hernández</strong></h1>
-                <p class="rol">Mozo</p>
+                <h1 tabindex="2" class="nombre_empleado"><strong>Luís Hernández</strong></h1>
+                <p tabindex="3" class="rol">Mozo</p>
             </div>           
         </div>
         <!-- Fin cabecera -->
@@ -44,13 +44,13 @@
             
             <div class="ContenedorForm">
                 <!-- Título del formulario -->
-                <h1 class="tituloFormulario" tabindex="1">Complete los siguientes campos para realizar un pedido:</h1>
+                <h1 class="tituloFormulario" tabindex="6">Complete los siguientes campos para realizar un pedido:</h1>
                 <br>
                 <!-- Inicio formulario para hacer el pedido -->
                 <form class="Formulario" action="./inicioMozo.html" onsubmit="return hacerPedido()">
                     <!-- Select para elegir qué pedir -->
                     <label for="food">Comida/Bebida:</label>
-                    <select id="food" tabindex="2">
+                    <select tabindex="10" id="food" tabindex="2">
                         <option value="#">Seleccione una opción</option>
                         <optgroup label="Comidas:">
                             <option value="Hamburgesa">Hamburguesa</option>
@@ -72,15 +72,15 @@
                     <br><br>
                     <!-- Ingresar un comentario -->
                     <label for="mensaje">Comentarios:</label>
-                    <textarea name="mensaje" rows="4" cols="20" placeholder="Ingrese los comentarios aquí."></textarea>
+                    <textarea tabindex="14" name="mensaje" rows="4" cols="20" placeholder="Ingrese los comentarios aquí."></textarea>
                     <br><br>
                     <!-- Ingresar Nº de mesa -->
                     <label for="mesa">Mesa:</label>
-                    <input tabindex="6" id="n_mesa" type="number" placeholder="Nº de mesa"><br><br>
+                    <input tabindex="16" id="n_mesa" type="number" placeholder="Nº de mesa"><br><br>
                     <br>
                     <!-- Botones para borrar y para hacer pedido -->
-                    <input tabindex="7" type="reset" value="Borrar todo">
-                    <input tabindex="8" type="submit" value="Hacer pedido">
+                    <input tabindex="18" type="reset" value="Borrar todo">
+                    <input tabindex="19" type="submit" value="Hacer pedido">
                 </form>
                 <!-- Fin del formulario -->
             </div>
@@ -91,10 +91,10 @@
         <!-- Footer -->
             <!-- Botón para cerrar sesión -->
             <div class="logout">
-                <a href="index.html" onclick="return cerrarSesion()"><img src="./images/icon/logout.png" alt="Cerrar sesión"></a>
+                <a href="index.html" tabindex="21" onclick="return cerrarSesion()"><img src="./images/icon/logout.png" alt="Cerrar sesión"></a>
             </div>
             <!-- Información desarrolladores -->
-            <div class="desarrolladores" tabindex="20">
+            <div class="desarrolladores" tabindex="22">
                 <p>&copy; Seminario RestoBar 2020
                     - Desarrollado por <u>Otero Bárbara & Enrietti Leal Lautaro.</u></p>
             </div>

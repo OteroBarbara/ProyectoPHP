@@ -28,8 +28,8 @@
         <div class="InfoPersonal">
             <div class="avatar" style="background-image: url(./images/avatar/cajero.jpg);"></div>
             <div class="datos_personales">
-                <h1 class="nombre_empleado"><strong>Julia Martínez</strong></h1>
-                <p class="rol">Cajera</p>
+                <h1 tabindex="2" class="nombre_empleado"><strong>Julia Martínez</strong></h1>
+                <p tabindex="3" class="rol">Cajera</p>
             </div>           
         </div>
          <!-- Fin cabecera -->
@@ -40,10 +40,10 @@
         <div align="center">
             <div class="detalleMesa">
                  <!-- Nº de mesa -->
-                <h1>Mesa N</h1>
+                <h1 tabindex="4">Mesa N</h1>
                 <br>
                  <!-- Detalle atención -->
-                <div class="partemesaDet">
+                <div tabindex="5" class="partemesaDet">
                     <h2>Fue atendida por:</h2>
                     <ul><em>
                         <li>Luís Hernández</li>
@@ -52,7 +52,7 @@
                     </em></ul>
                 </div>
                  <!-- Pedidos -->
-                <div class="partemesaDet">
+                <div tabindex="6" class="partemesaDet">
                     <div align="right">
                     <h2>Pedidos</h2>                  
                     <ul><em>
@@ -66,10 +66,10 @@
                     <br>
                 </div>
                  <!-- Monto -->
-                <h2>Total a pagar: $ Monto</h2>   
+                <h2 tabindex="10">Total a pagar: $ Monto</h2>   
                  <!-- Botón cerrar mesa -->            
                 <div class="cerrarMesa">
-                    <a href="inicioCajero.html" onclick="return cerrarMesa()"><img src="./images/icon/botar.png" alt="Cerrar la mesa y volver al listado anterior."></a>
+                    <a tabindex="12" href="inicioCajero.html" onclick="return cerrarMesa()"><img src="./images/icon/botar.png" alt="Cerrar la mesa y volver al listado anterior."></a>
                 </div>  
             </div>
         </div>
@@ -79,16 +79,16 @@
     <footer>
          <!-- Botón para volver al listado de las mesas activas -->
         <div class="historial">
-            <a href="inicioCajero.html"><img src="./images/icon/volver.png" alt="Volver al listado de mesas."></a>
+            <a tabindex="14" href="inicioCajero.html"><img src="./images/icon/volver.png" alt="Volver al listado de mesas."></a>
         </div>
 
          <!-- Botón para cerrar sesión -->
         <div class="logout" align="center">
-            <a href="index.html" onclick="return cerrarSesion()"><img src="./images/icon/logout.png" alt="Cerrar sesión"></a>
+            <a tabindex="16" href="index.html" onclick="return cerrarSesion()"><img src="./images/icon/logout.png" alt="Cerrar sesión"></a>
         </div>
 
         <!-- Info desarrolladores -->
-        <div class="desarrolladores" >
+        <div tabindex="18" class="desarrolladores" >
             <p>&copy; Seminario RestoBar 2020
                 - Desarrollado por <u>Otero Bárbara & Enrietti Leal Lautaro.</u></p>
         </div>
