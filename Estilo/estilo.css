@@ -1,18 +1,21 @@
+/* Borrar las configuraciones de estilo por defecto */
 *{
     margin: 0px;
     padding: 0px;
     list-style: none;
 }
+/* Estilo de fondo y fuente */
 body{
     background-size: cover;
     background-image: url("../images/fondo.jpg") ;
-    font-family: 'Raleway', sans-serif; 
-    /* Decidir entre Lato y Raleway o proponer otra fuente */
+    font-family: 'Raleway', sans-serif;    
 }
+/* Aumento del borde por defecto de los formulaciós cuando tienen el focus */
 input:focus {
     border-color: blue;
     border-width: 3px;
   }
+/* Estilo cabecera */
 .InfoPersonal{
     margin-top: 16px;
     height: 200px;
@@ -47,6 +50,7 @@ input:focus {
     background-size: 100% auto;
     float: left;
 }
+/* Estilo del contenedor del index */
 .Contenedor_form_index{
     margin: 4vw;
     width: 60vw;
@@ -57,6 +61,7 @@ input:focus {
 .logoIndex{ 
     width:  36vw;
 }
+/* íconos */
 .icon{
     width: 20px;
 }
@@ -64,6 +69,7 @@ input:focus {
     height: 40px;
     width: 40px;
 }
+/* Estilo cajas de pedidos (Cocinero y Bartender) */
 .pedido{
     background-color: rgba(0, 0, 0, 0.925);
     width: 300px;
@@ -72,6 +78,7 @@ input:focus {
     padding: 20px;
     float: left;
 }
+/* Estilo cajas de mesas abiertas (Cajero) */
 .mesa{
     background-color: rgba(0, 0, 0, 0.925);
     width: 200px;
@@ -79,6 +86,7 @@ input:focus {
     padding: 20px;
     float: left;
 }
+/* Estilo cajas de mesas cerradas (Cajero) */
 .mesaClosed{
     background-color: rgba(0, 0, 0, 0.925);  
     margin: 20px;
@@ -95,6 +103,7 @@ input:focus {
     width: 160px;
     padding: 20px;
 }
+/* Estilo listas */
 .lista{
     color: #f27830;
     margin-top: 20px;
@@ -106,6 +115,34 @@ input:focus {
     color: #f28d35;
     text-shadow: 2px 2px 2px black;
 }
+/* Estilo contenedor del formulario para hacer pedido (Mozo) */
+.ContenedorForm{
+    padding: 2vw;
+    margin: 6vw;
+    width: 65vw;
+    background-color: rgba(0, 0, 0, 0.925);
+    color: #f28d35;
+    text-align: center;
+    font-size: 18px;
+}
+.Formulario{
+    display: block;   
+    text-align: right;
+}
+.tituloFormulario{
+    color: #f27830;
+    font-size: 22px;
+}
+/* Estilo del contenedor donde figura la info a detalle de las mesas */
+.detalleMesa{
+    padding: 2vw;
+    margin: 4vh;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.925);
+    color: #f28d35;
+    text-align: center;
+}
+/* Botones */
 .entregado{
     height: 50px;
     float: right;
@@ -119,31 +156,6 @@ input:focus {
     border: 3px outset #d1f6ff;
     background-color: #a0e9ff;
     border-radius: 50%;
-}
-.ContenedorForm{
-    padding: 2vw;
-    margin: 6vw;
-    width: 65vw;
-    background-color: rgba(0, 0, 0, 0.925);
-    color: #f28d35;
-    text-align: center;
-    font-size: 18px;
-}
-.detalleMesa{
-    padding: 2vw;
-    margin: 4vh;
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.925);
-    color: #f28d35;
-    text-align: center;
-}
-.Formulario{
-    display: block;   
-    text-align: right;
-}
-.tituloFormulario{
-    color: #f27830;
-    font-size: 22px;
 }
 .cerrarMesa img{
     height: 50px;
@@ -183,6 +195,7 @@ input:focus {
     right: 20px;
     bottom:30px;
 }
+/* Información sobre los desarrolladores */
 .desarrolladores{
     position: fixed;
     right: 0px;

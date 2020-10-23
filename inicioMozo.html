@@ -20,11 +20,14 @@
 
 <body>
     <header>
+        <!-- Cabecera -->
+        <!-- Logo del restó -->
         <div>
             <figure>
                 <img class="logo" src="./images/logo/logoSeminario.png" alt="Logo de Seminario RestoBar. Slogan: Persigue los sabores">
             </figure>
         </div>
+        <!-- Información del usuario -->
         <div class="InfoPersonal">
             <div class="avatar" style="background-image: url(./images/avatar/mozo.jpg);"></div>
             
@@ -33,14 +36,19 @@
                 <p class="rol">Mozo</p>
             </div>           
         </div>
+        <!-- Fin cabecera -->
     </header>
 
     <section>
         <div align=center>
+            
             <div class="ContenedorForm">
+                <!-- Título del formulario -->
                 <h1 class="tituloFormulario" tabindex="1">Complete los siguientes campos para realizar un pedido:</h1>
                 <br>
+                <!-- Inicio formulario para hacer el pedido -->
                 <form class="Formulario" action="./inicioMozo.html" onsubmit="return hacerPedido()">
+                    <!-- Select para elegir qué pedir -->
                     <label for="food">Comida/Bebida:</label>
                     <select id="food" tabindex="2">
                         <option value="#">Seleccione una opción</option>
@@ -62,28 +70,36 @@
                         </optgroup>
                     </select>
                     <br><br>
+                    <!-- Ingresar un comentario -->
                     <label for="mensaje">Comentarios:</label>
                     <textarea name="mensaje" rows="4" cols="20" placeholder="Ingrese los comentarios aquí."></textarea>
                     <br><br>
+                    <!-- Ingresar Nº de mesa -->
                     <label for="mesa">Mesa:</label>
                     <input tabindex="6" id="n_mesa" type="number" placeholder="Nº de mesa"><br><br>
                     <br>
+                    <!-- Botones para borrar y para hacer pedido -->
                     <input tabindex="7" type="reset" value="Borrar todo">
                     <input tabindex="8" type="submit" value="Hacer pedido">
                 </form>
+                <!-- Fin del formulario -->
             </div>
         </div>
     </section>
     
-        <footer>
+    <footer>
+        <!-- Footer -->
+            <!-- Botón para cerrar sesión -->
             <div class="logout">
                 <a href="index.html" onclick="return cerrarSesion()"><img src="./images/icon/logout.png" alt="Cerrar sesión"></a>
             </div>
+            <!-- Información desarrolladores -->
             <div class="desarrolladores" tabindex="20">
                 <p>&copy; Seminario RestoBar 2020
                     - Desarrollado por <u>Otero Bárbara & Enrietti Leal Lautaro.</u></p>
             </div>
-        </footer>
+        <!-- Fin footer -->
+    </footer>
 </body>
 
 </html>
